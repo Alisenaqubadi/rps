@@ -2,7 +2,7 @@ var players = 0;
 var coms = 0;
 
 function draw() {
-    alert(`It is a draw Player = ${players} and Computer = ${coms}`);
+    alert(`It is a tie Player = ${players} and Computer = ${coms}`);
 }
 
 function won() {
