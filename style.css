@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+}
+
+@media (max-width: 900px){
+    .starterPage{
+        height: 30%;
+        width: 58%;
+        background-color: white;
+        margin-bottom: 16%;
+        border-radius: 15px;
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);  
+    }
+}
+.starterPage{
+    height: 40%;
+    width: 55%;
+    max-width: 700px;
+    background-color: white;
+    margin-bottom: 6%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);   
+}
