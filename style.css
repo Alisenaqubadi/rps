@@ -15,6 +15,8 @@ body{
         margin-bottom: 16%;
         border-radius: 15px;
         box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);  
+        display: flex;
+
 
     }
 }
@@ -25,5 +27,79 @@ body{
     background-color: white;
     margin-bottom: 6%;
     border-radius: 15px;
-    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1)
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sides{
+display: flex;
+flex: 3;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    flex: 1;
+}
+
+.right-side{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.next-button{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+button{
+    height: 40%;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Gradient */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover{
+    transform: scale(1.05); /* Slightly bigger */
+    background: linear-gradient(45deg, #ff5f6d, #ffc371); /* Color shift */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+button:active{
+    transform: scale(0.98); /* Pressed effect */
+}
+
+input{
+    width: 250px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#player-name{
+    margin-bottom: 60px;
+}
+input{
+    margin: 0 20px 0 0;
 }
