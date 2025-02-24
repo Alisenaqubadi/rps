@@ -1,24 +1,24 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Rock Papper Scissors Game</title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<div class="starterPage">
-    <div class="sides">
-        <div class="left-side">
-            <h1>Player's name:</h3>
+<body>
+    <div class="starterPage">
+        <div class="sides">
+            <div class="left-side">
+                <h1>Player's name:</h1>
                 <h1>Round:</h1>
+            </div>
+            <div class="right-side">
+               <input id="player-name" type="text" placeholder="Enter your name if you want">
+               <input id="round-count" type="text" placeholder="Enter number of rounds"> 
+            </div>
         </div>
-        <div class="right-side">
-           <input id="player-name" type="text" placeholder="Enter Your Name if You Want">
-           <input type="text" placeholder="Enter who long do you want to play"> 
+        <div class="next-button">
+            <button onclick="next();">Next</button>
         </div>
     </div>
-    <div class="next-button"><button>Next</button></div>
-</div>
-<body>
-
-    <!-- <script src="javascript.js"></script> -->
+    <script src="index.js"></script>
 </body>
 </html>
