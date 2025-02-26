@@ -76,3 +76,9 @@ img{
 #result{
  text-align: center;
 }
+
+#won{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 100;
+}
